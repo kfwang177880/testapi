@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react'  
 
   class App extends Component {
     constructor () {
@@ -36,7 +36,7 @@ import React, {Component} from 'react'
                   return (
                     <li key = {el.id}>
                       Name: {el.name} | UserName: {el.username} | {' '}
-                      <a href={'https://${el.website}'}>Website</a>
+                      <a href={`https://${el.website}`}>Website</a>
                     </li>
                   )
                 })}
